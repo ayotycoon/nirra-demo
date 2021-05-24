@@ -1,0 +1,24 @@
+@keyframes spinA {
+    0%{
+ 
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    
+    }
+    
+}
+
+.Button{
+.spin{
+    display: inline-block;
+    animation-name: spinA;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+
+}

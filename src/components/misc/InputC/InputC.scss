@@ -1,0 +1,30 @@
+.Input{
+label{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sub-type-phone{
+    .input-group-prepend,.input-group-text{
+        background-color: white !important;
+        border-right: none !important;
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+    .input-group-text{
+    
+        padding-right: 1px !important;
+        div{
+     
+       padding-right: 10px;
+            border-right: 0.5px solid #C9C9C9;
+        }
+
+    }
+
+    .form-control{
+        border-left: none !important;
+
+    }
+}
+}

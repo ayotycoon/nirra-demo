@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+$theme-colors: (
+  "primary": #F18651,
+  "primary2": #FEEADD,
+  "dark": #373534,
+  "dark2": #1E1E1E,
+  "danger": #D54A39,
+  "muted": #C9C9C9,
+  "muted2": #6D5F55
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: 'Hind', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.font-weight-bold{
+  font-weight: 500;
+}
+.cursor{
+  cursor: pointer;
+}
+.small{
+  font-size: 12px !important;
+}

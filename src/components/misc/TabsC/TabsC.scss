@@ -1,0 +1,33 @@
+.Tabs{
+.tabs-nav-container{
+    display:flex;
+justify-content: space-between;
+
+.each-tab{
+
+    .content{
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    width: 100%;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    &:hover{
+        background-color: rgba(3, 3, 3, 0.020);
+    }
+    border-bottom: 1px solid #C9C9C9;
+}
+.each-tab-active{
+    font-weight: 600;
+
+}
+.each-tab-active-border{
+
+    border-bottom: 4px solid #F18651;
+    width: 100%;
+}
+}
+
+}
